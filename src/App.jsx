@@ -1,4 +1,5 @@
 import { Routes, Route, useLocation } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/next"
 import { AnimatePresence, motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
